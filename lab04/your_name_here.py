@@ -20,11 +20,6 @@ def main():
             line = fn.readline()
         fn.close()
 
-
-
-
-
-
 def replace_name_in_line(line, name, newName):
     num = 0
     line = line.split()
