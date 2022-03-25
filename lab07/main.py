@@ -19,7 +19,7 @@ def make_graph(y_data):
     plt.grid(color='gainsboro')
     plt.xlabel('Timestep', fontsize='16', color = 'maroon')
     plt.ylabel('Number of Agents Who Switch Tasks', fontsize='16', color = 'maroon')
-    plt.title('Agents Switching Task at Timesteps', fontsize='22', color = 'maroon')
+    plt.title('Agents Switching Task at Timesteps', fontsize='22', color = 'maroon', y=1.04)
     lp = plt.plot(y_data, color='red', linewidth=2.5, ls='dotted')
     ax = plt.gca()
     ax.set_facecolor('seashell')
