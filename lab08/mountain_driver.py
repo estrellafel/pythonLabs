@@ -9,6 +9,7 @@ def main():
         swiss_mountains.append(Mountain(split_line[0], split_line[1], split_line[2], split_line[3], split_line[4]))
         line = fn.readline()
     swiss_mountains[1].climb()
+    swiss_mountains[15].climb()
     check_higher(swiss_mountains)
     print_mountains(swiss_mountains)
     check_num(swiss_mountains)
