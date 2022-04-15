@@ -1,4 +1,3 @@
-from random import randint
 from character import Character
 import utilities as ut
 
